@@ -1,2 +1,44 @@
-# Youtube-Video-Looper-Auto
-This script lets you define and activate an automatic loop on a YouTube video to repeat a specific section. It features a button that, when clicked, sets the start and end of the loop, and another button to reset or deactivate the loop.
+# YouTube Video Looper Auto
+
+YouTube Video Looper Auto is a user script that enables automatic looping of specific sections in YouTube videos. It provides a convenient way to define and activate loops, enhancing the viewing experience on YouTube.
+
+## Features
+
+- **Loop Definition:** Set a custom loop for any YouTube video.
+- **Automatic Looping:** The script automatically repeats the defined section of the video.
+- **Loop Reset:** Easily reset or disable the loop.
+
+## Installation
+
+To use the YouTube Video Looper Auto script, follow these steps:
+
+1. **Install a User Script Manager:**
+   - If you don't have one, install a user script manager for your browser. Tampermonkey is recommended for compatibility.
+   - [Tampermonkey for Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
+   - [Tampermonkey for Firefox](https://addons.mozilla.org/en-US/firefox/addon/tampermonkey/)
+
+2. **Create a New Script:**
+   - Open Tampermonkey and create a new script.
+
+3. **Copy the Script:**
+   - Copy the entire code from the [YouTube Video Looper Auto script](link-to-your-script).
+
+4. **Paste and Save:**
+   - Paste the copied code into the Tampermonkey script editor.
+   - Save the script.
+
+5. **Enjoy Looping:**
+   - Visit a YouTube video page, and the loop button will appear. Click to define or reset the loop.
+
+## Usage
+
+- When on a YouTube video page, click the "Initialize Looper" or "Reset Looper" button to set or reset the loop.
+- Enter the start and end times in the presented dialog box in the format "hhmmss hhmmss."
+
+## Contribution
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
