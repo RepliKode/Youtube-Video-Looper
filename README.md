@@ -21,7 +21,7 @@ To use the YouTube Video Looper Auto script, follow these steps:
    - Open Tampermonkey and create a new script.
 
 3. **Copy the Script:**
-   - Copy the entire code from the [YouTube Video Looper Auto script](link-to-your-script).
+   - Copy the entire code from the [YouTube Video Looper Auto script](https://github.com/RepliKode/Youtube-Video-Looper-Auto/blob/main/youtube-video-looper.user.js).
 
 4. **Paste and Save:**
    - Paste the copied code into the Tampermonkey script editor.
@@ -38,7 +38,3 @@ To use the YouTube Video Looper Auto script, follow these steps:
 ## Contribution
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
