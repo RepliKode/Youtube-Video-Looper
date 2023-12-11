@@ -1,6 +1,6 @@
-# YouTube Video Looper Auto
+# YouTube Video Looper
 
-YouTube Video Looper Auto is a user script that enables automatic looping of specific sections in YouTube videos. It provides a convenient way to define and activate loops, enhancing the viewing experience on YouTube.
+YouTube Video Looper is a user script that enables automatic looping of specific sections in YouTube videos. It provides a convenient way to define and activate loops, enhancing the viewing experience on YouTube.
 
 ## Features
 
@@ -10,7 +10,7 @@ YouTube Video Looper Auto is a user script that enables automatic looping of spe
 
 ## Installation
 
-To use the YouTube Video Looper Auto script, follow these steps:
+To use the YouTube Video Looper script, follow these steps:
 
 1. **Install a User Script Manager:**
    - If you don't have one, install a user script manager for your browser. Tampermonkey is recommended for compatibility.
@@ -21,7 +21,7 @@ To use the YouTube Video Looper Auto script, follow these steps:
    - Open Tampermonkey and create a new script.
 
 3. **Copy the Script:**
-   - Copy the entire code from the [YouTube Video Looper Auto script](https://github.com/RepliKode/Youtube-Video-Looper-Auto/blob/main/youtube-video-looper.user.js).
+   - Copy the entire code from the [YouTube Video Looper script](https://github.com/RepliKode/Youtube-Video-Looper/blob/main/youtube-video-looper.user.js).
 
 4. **Paste and Save:**
    - Paste the copied code into the Tampermonkey script editor.
