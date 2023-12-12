@@ -18,7 +18,7 @@
     let loopEndSeconds;
     let videoId; // Declare the variable outside the if block
 
-    // Check if the current page is a YouTube or YouTube Short video
+    // Check if the current page is a YouTube video or YouTube Short
     if (isYouTubeVideoPage()) {
         // Get the video ID from the URL
         const videoIdMatch = window.location.search.match(/(?:v=|\/shorts\/)([^&/]+)/);
@@ -35,7 +35,7 @@
         }
     }
 
-    // Function to check if the current page is a YouTube or YouTube Short video
+    // Function to check if the current page is a YouTube video or YouTube Short
     function isYouTubeVideoPage() {
         return window.location.href.includes('/watch?v=') || window.location.href.includes('/shorts/');
     }
@@ -46,7 +46,7 @@
         if (player) {
             player.currentTime = loopStartSeconds;
 
-            // Start playing
+            // Start playback
             player.play();
 
             // Check the time periodically
@@ -58,7 +58,7 @@
 
     function checkTime() {
         if (player.currentTime >= loopEndSeconds) {
-            // Go back to the starting point at the end of the section
+            // Return to the starting point at the end of the section
             player.currentTime = loopStartSeconds;
         }
     }
@@ -75,7 +75,7 @@
             player.play(); // Resume playback
         } else {
             // If the loop is not defined, ask the user
-            const userInput = prompt('Enter the start and end time (format hhmmss hhmmss):');
+            const userInput = prompt('Enter start and end time (format hhmmss hhmmss):');
 
             if (userInput !== null) { // If the user didn't click "Cancel"
                 const inputParts = userInput.split(' ');
@@ -119,10 +119,13 @@
     // Add the button to the page
     document.body.appendChild(resetButton);
 
-    // Initialize the button text on page load
+    // Initialize the button text when the page loads
     updateButtonLabel();
 
-    // Convert a time string in the format hhmmss to seconds
+    // Observe changes in full-screen mode
+    document.addEventListener('fullscreenchange', handleFullscreenChange);
+
+    // Convert a time string in hhmmss format to seconds
     function timeStringToSeconds(timeString) {
         const hours = parseInt(timeString.substring(0, 2)) || 0;
         const minutes = parseInt(timeString.substring(2, 4)) || 0;
@@ -130,4 +133,8 @@
         return hours * 3600 + minutes * 60 + seconds;
     }
 
+    function handleFullscreenChange() {
+        const isFullscreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement;
+        resetButton.style.display = isFullscreen ? 'none' : 'block';
+    }
 })();
