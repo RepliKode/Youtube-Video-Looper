@@ -35,6 +35,10 @@ To use the YouTube Video Looper script, follow these steps:
 - When on a YouTube video page, click the "Initialize Looper" or "Reset Looper" button to set or reset the loop.
 - Enter the start and end times in the presented dialog box in the format "hhmmss hhmmss."
 
+## Latest Update
+
+- Improved user experience when in fullscreen mode. The loop button is now hidden during fullscreen, providing an unobstructed view.
+
 ## Contribution
 
 Contributions are welcome! Feel free to open issues or submit pull requests.
