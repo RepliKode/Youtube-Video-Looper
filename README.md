@@ -20,6 +20,8 @@ To use the YouTube Video Looper script, follow these steps:
 2. **Create a New Script:**
    - Open Tampermonkey and create a new script.
 
+     ![Create a New Script](https://github.com/RepliKode/Youtube-Video-Looper/blob/main/NewScript.jpg?raw=true)
+     
 3. **Copy the Script:**
    - Copy the entire code from the [YouTube Video Looper script](https://github.com/RepliKode/Youtube-Video-Looper/blob/main/youtube-video-looper.user.js).
 
@@ -28,7 +30,7 @@ To use the YouTube Video Looper script, follow these steps:
    - Save the script.
 
 5. **Enjoy Looping:**
-   - Visit a YouTube video page, and the loop button will appear. Click to define or reset the loop.
+   - Visit a YouTube video page, and the loop button will appear on the top right corner of the YouTube page. Click it to define or reset the loop.
 
 ## Usage
 
